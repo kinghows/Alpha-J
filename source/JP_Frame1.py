@@ -136,25 +136,25 @@ def create(parent):
 
 [wxID_FRAME1, wxID_FRAME1BT_ALPHA_AUTO, wxID_FRAME1BT_ALPHA_JUMP, 
  wxID_FRAME1BT_JUMP, wxID_FRAME1BT_SCREENSIZE, wxID_FRAME1PANEL1, 
- wxID_FRAME1RICHTEXTCTRL1, wxID_FRAME1STATICBITMAP1, wxID_FRAME1ST_DISTANCE, 
- wxID_FRAME1ST_MILLISECOND, wxID_FRAME1ST_N, wxID_FRAME1ST_SCREENSIZE, 
- wxID_FRAME1TC_DEBUG, wxID_FRAME1TC_DISTANCE, wxID_FRAME1TC_MILLISECOND, 
- wxID_FRAME1TC_N, wxID_FRAME1TC_SCREENSIZE, 
-] = [wx.NewId() for _init_ctrls in range(17)]
+ wxID_FRAME1RICHTEXTCTRL1, wxID_FRAME1ST_DISTANCE, wxID_FRAME1ST_MILLISECOND, 
+ wxID_FRAME1ST_N, wxID_FRAME1ST_SCREENSIZE, wxID_FRAME1TC_DEBUG, 
+ wxID_FRAME1TC_DISTANCE, wxID_FRAME1TC_MILLISECOND, wxID_FRAME1TC_N, 
+ wxID_FRAME1TC_SCREENSIZE, 
+] = [wx.NewId() for _init_ctrls in range(16)]
 
 class Frame1(wx.Frame):
     def _init_ctrls(self, prnt):
         # generated method, don't edit
         wx.Frame.__init__(self, id=wxID_FRAME1, name='', parent=prnt,
-              pos=wx.Point(520, 74), size=wx.Size(310, 660),
+              pos=wx.Point(565, 222), size=wx.Size(312, 400),
               style=wx.DEFAULT_FRAME_STYLE, title=u'Alpha-J')
-        self.SetClientSize(wx.Size(294, 621))
-        self.SetMaxSize(wx.Size(600, 660))
-        self.SetMinSize(wx.Size(310, 660))
+        self.SetClientSize(wx.Size(296, 361))
+        self.SetMaxSize(wx.Size(600, 400))
+        self.SetMinSize(wx.Size(310, 400))
         self.Show(True)
 
         self.panel1 = wx.Panel(id=wxID_FRAME1PANEL1, name='panel1', parent=self,
-              pos=wx.Point(0, 0), size=wx.Size(294, 621),
+              pos=wx.Point(0, 0), size=wx.Size(296, 361),
               style=wx.TAB_TRAVERSAL)
         self.panel1.SetAutoLayout(True)
         self.panel1.SetConstraints(LayoutAnchors(self.panel1, True, True, False,
@@ -184,15 +184,10 @@ class Frame1(wx.Frame):
               id=wxID_FRAME1BT_JUMP)
 
         self.richTextCtrl1 = wx.richtext.RichTextCtrl(id=wxID_FRAME1RICHTEXTCTRL1,
-              parent=self.panel1, pos=wx.Point(8, 136), size=wx.Size(280, 288),
+              parent=self.panel1, pos=wx.Point(8, 136), size=wx.Size(280, 208),
               style=wx.richtext.RE_MULTILINE,
-              value=u'1\u3001\u53ea\u652f\u6301\u5b89\u5353\u7cfb\u7edf\n2\u3001\u624b\u673a\u6253\u5f00USB\u8c03\u8bd5/\u6a21\u62df\u70b9\u51fb\uff0c\u786e\u4fdd\u6ca1\u6709\u5176\u5b83\u7a0b\u5e8f\u8fde\u63a5\u624b\u673a\u3002\n3\u3001\u8bf7\u5148\u6d4b\u91cfScreensize\u3002\u7b2c\u4e00\u8df3\u9ed8\u8ba4720\u6beb\u79d2\uff0c\u8df3\u4e00\u8df3\u6709\u4e00\u4e2a\u5341\u51e0\u6beb\u79d2\u968f\u673a\u8bef\u5dee\uff0c\u4f60\u53ef\u4ee5\u5c1d\u8bd5\u662f\u5426\u6709\u66f4\u597d\u503c\u3002\n\n jump          \u8df3millisecond\uff1a\u6307\u5b9a\u6beb\u79d2\u3002      \nAlphi-jump   \u5355\u6b65\u667a\u80fd\u8df3\u3002\nAlphi-auto    \u667a\u80fd\u8df3n\u6b21\u3002\n\u667a\u80fd\u8df3\u4e0d\u8981\u8fde\u7eed\u8df3\u5f88\u591a\u6b21\uff0c\u8df3\u4e00\u8df3\u6709\u68c0\u6d4b\u673a\u5668\u4eba\u529f\u80fd\uff0c\u8bf7\u9010\u6b65\u63d0\u9ad8\u4f60\u7684\u5206\u6570\u3002\n\n\u73b0\u5728\u4f60\u53ef\u4ee5\u4eab\u53d7\u8df3\u4e00\u8df3\u7684\u4e50\u8da3\uff0c\u4e0d\u53d7\u6392\u884c\u699c\u7684\u5f71\u54cd\u3002\n\n      \u5982\u679c\u4f60\u9ad8\u5174\uff0c\u8bf7\u968f\u610f\u6253\u8d4f\u70b9\u8d5e\uff01')
+              value=u'1\u3001\u53ea\u652f\u6301\u5b89\u5353\u7cfb\u7edf\n2\u3001\u624b\u673a\u6253\u5f00USB\u8c03\u8bd5/\u6a21\u62df\u70b9\u51fb\uff0c\u786e\u4fdd\u6ca1\u6709\u5176\u5b83\u7a0b\u5e8f\u8fde\u63a5\u624b\u673a\u3002\n3\u3001\u8bf7\u5148\u6d4b\u91cfScreensize\u3002\u7b2c\u4e00\u8df3\u9ed8\u8ba4720\u6beb\u79d2\uff0c\u8df3\u4e00\u8df3\u6709\u4e00\u4e2a\u5341\u51e0\u6beb\u79d2\u968f\u673a\u8bef\u5dee\uff0c\u4f60\u53ef\u4ee5\u5c1d\u8bd5\u662f\u5426\u6709\u66f4\u597d\u503c\u3002\n\n jump          \u8df3millisecond\uff1a\u6307\u5b9a\u6beb\u79d2\u3002      \nAlphi-jump   \u5355\u6b65\u667a\u80fd\u8df3\u3002\nAlphi-auto    \u667a\u80fd\u8df3n\u6b21\u3002\n\u667a\u80fd\u8df3\u4e0d\u8981\u8fde\u7eed\u8df3\u5f88\u591a\u6b21\uff0c\u8df3\u4e00\u8df3\u6709\u68c0\u6d4b\u673a\u5668\u4eba\u529f\u80fd\uff0c\u8bf7\u9010\u6b65\u63d0\u9ad8\u4f60\u7684\u5206\u6570\u3002')
         self.richTextCtrl1.SetLabel(u'richText')
-
-        self.staticBitmap1 = wx.StaticBitmap(bitmap=wx.Bitmap(u'wx._gdc_.pyd',
-              wx.BITMAP_TYPE_JPEG), id=wxID_FRAME1STATICBITMAP1,
-              name='staticBitmap1', parent=self.panel1, pos=wx.Point(64, 432),
-              size=wx.Size(169, 183), style=0)
 
         self.bt_Alpha_jump = wx.Button(id=wxID_FRAME1BT_ALPHA_JUMP,
               label=u'Alpha-jump', name=u'bt_Alpha_jump', parent=self.panel1,
@@ -229,7 +224,7 @@ class Frame1(wx.Frame):
               style=0)
 
         self.tc_debug = wx.TextCtrl(id=wxID_FRAME1TC_DEBUG, name=u'tc_debug',
-              parent=self.panel1, pos=wx.Point(312, 16), size=wx.Size(256, 592),
+              parent=self.panel1, pos=wx.Point(304, 8), size=wx.Size(256, 336),
               style=wx.TE_MULTILINE, value=u'')
 
     def __init__(self, parent):
