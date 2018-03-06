@@ -2,6 +2,7 @@
 微信跳一跳python玩法
 
 安装：
+
 1、python 2.7 32位版本：https://www.python.org/downloads/release/python-2714/
 
 2、wxPython2.8-win32-unicode-2.8.12.1-py27.exe ：https://sourceforge.net/projects/wxpython/files/wxPython/
