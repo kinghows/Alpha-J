@@ -31,4 +31,3 @@ python myjump.py py2exe
 
 - [Alpha-D：人工智能刷抖音](https://github.com/kinghows/Alpha-D)
 
-- [Alpha-J：微信跳一跳python玩法](https://github.com/kinghows/Alpha-J)
