@@ -18,13 +18,16 @@ python myjump.py py2exe
 
 ##好玩的Alpha系列，喜欢的打颗星：
 
-Alpha-12306：买个票 https://github.com/kinghows/Alpha-12306
+- [1 小时 SQL 极速入门（一）](https://mp.weixin.qq.com/s/Lx4B349OlD49ihJPnB6YiA)
 
-Alpha-B：下载关注的最新B站视频 https://github.com/kinghows/Alpha-B
+- [Alpha-12306：买个票](https://github.com/kinghows/Alpha-12306)
 
-Alpha-C：智能闲聊 https://github.com/kinghows/Alpha-C
+- [Alpha-B：下载关注的最新B站视频](https://github.com/kinghows/Alpha-B)
 
-Alpha-P：检测手机照片的拍摄时间和地点以及颜值 https://github.com/kinghows/Alpha-P
+- [Alpha-C：智能闲聊](https://github.com/kinghows/Alpha-C)
 
-Alpha-D：人工智能刷抖音 https://github.com/kinghows/Alpha-D
+- [Alpha-P：检测手机照片的拍摄时间和地点以及颜值](https://github.com/kinghows/Alpha-P)
 
+- [Alpha-D：人工智能刷抖音](https://github.com/kinghows/Alpha-D)
+
+- [Alpha-J：微信跳一跳python玩法](https://github.com/kinghows/Alpha-J)
