@@ -19,8 +19,6 @@ python myjump.py py2exe
 
 ## 好玩的Alpha系列，喜欢的打颗星：
 
-- [1 小时 SQL 极速入门（一）](https://mp.weixin.qq.com/s/Lx4B349OlD49ihJPnB6YiA)
-
 - [Alpha-12306：买个票](https://github.com/kinghows/Alpha-12306)
 
 - [Alpha-B：下载关注的最新B站视频](https://github.com/kinghows/Alpha-B)
