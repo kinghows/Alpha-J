@@ -16,7 +16,7 @@
 python myjump.py py2exe
 
 
-***好玩的Alpha系列，喜欢的打颗星：
+**好玩的Alpha系列，喜欢的打颗星：
 
 Alpha-12306：买个票 https://github.com/kinghows/Alpha-12306
 
