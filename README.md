@@ -29,3 +29,4 @@ python myjump.py py2exe
 
 - [Alpha-D：人工智能刷抖音](https://github.com/kinghows/Alpha-D)
 
+- [Alpha-A：量化投资--一个全栈实验项目](https://github.com/kinghows/Alpha-A)
